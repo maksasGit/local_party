@@ -1,3 +1,5 @@
+# routes/bestiary.py
+
 from flask import Blueprint, jsonify
 from models import Category, Entry
 from database import get_session
